@@ -1,0 +1,60 @@
+.achievements {
+    margin-top: 100px;
+    background-image: url(../img/achiv/achiv-bg.png);
+    height: 309px;
+}
+
+.our-achievements-slogan {
+    margin-left: 399px;
+    top: 67px;
+    position: relative;
+    /* margin-top: 67px; */
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+
+.our-achievements-main {
+    display: flex;
+}
+
+.our-achievements-items {
+    position: relative;
+    top: 86px;
+    margin-left: 83px;
+    display: flex;
+}
+
+.our-achievements-quality {
+ display: block;
+ text-align: center;
+}
+
+.our-achievements-contain {
+    width: 208px;
+    height: 181px;
+    border: 3px dashed white;
+    margin-right: 41px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 17px;
+    display: block;
+}
+
+.our-achievements-item {
+    /* width: 208px;
+    height: 82px; */
+    
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
