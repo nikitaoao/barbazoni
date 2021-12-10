@@ -15,27 +15,29 @@
 <body>
     <section class="navbar-sect">
         <div class="container">
+            <div class="navbar-main">
             <img class="navbar-logo" src="./img/logo.jpg">
             <nav class="contact">
-                <img class="contact-phone" src="./img/phone.svg">
-                <p class="contact-number1">(096) – 508 – 39 -66</p>
-                <img class="contact-phone" src="./img/phone.svg">
-                <p class="contact-number1">(098) – 210 – 78 -9</p>
-                <img class="contact-phone" src="./img/telegram.svg">
-                <img class="contact-phone" src="./img/viber.svg">
+                <img class="dnone768" src="./img/phone.svg">
+                <a href="tel: +380965083966" class="contact-number1">(096) – 508 – 39 -66</a>
+                <img class="dnone768" src="./img/phone.svg">
+                <a href="tel: +380982107896" class="contact-number1">(098) – 210 – 78 -96</a>
+                <a href="#"><img class="contact-phone" src="./img/telegram.svg"></a>
+               <a href="#"><img class="contact-phone" src="./img/viber.svg"></a>
             </nav>
             <nav class="navbar">
                 <nav class="navbar-menu">
                     <ul class="navbar-list">
-                        <li class="navbar-item"><a href="#" class="navbar-item a">Главная</a></li>
-                        <li class="navbar-item"><a href="#">Услуги</a></li>
-                        <li class="navbar-item"><a href="#">Как мы работаем</a></li>
-                        <li class="navbar-item"><a href="#">Частые вопросы</a></li>
-                        <li class="navbar-item"><a href="#">Контакты</a></li>
+                        <li class="navbar-item"><a href="#home" class="navbar-item-link">Главная</a></li>
+                        <li class="navbar-item"><a href="#service" class="navbar-item-link">Услуги</a></li>
+                        <li class="navbar-item"><a href="#how-we-work" class="navbar-item-link">Как мы работаем</a></li>
+                        <li class="navbar-item dnone768"><a href="#" class="navbar-item-link">Частые вопросы</a></li>
+                        <li class="navbar-item"><a href="#contacts" class="navbar-item-link">Контакты</a></li>
                     </ul>
                 </nav>
             </nav>
-
+        </div>
+        <p><a name="home"></a></p>
             <div class="header-slider">
                 <div class="slider-item slider-item-one">
                     <div class="header-text">
@@ -48,9 +50,9 @@
                 </div>
                 <div class="slider-item slider-item-two">
                     <div class="header-text">
-                        <h2 class="header-text-main">BARBAZONI</h2>
-                        <p class="">Надежная защита вашего дома и бизнеса от вредителей!</p>
-                        <p class="w565 mt14">Являемся проверенным партнером, готовы справиться с проблемой любой сложности.</p>
+                        <h2 class="header-text-main">BARBZONI</h2>
+                        <p class="">Работаем 24\7</p>
+                        <p class="w565 mt14">Выезд на объект, в любое удобное, для вас время.</p>
                         <button class="call-us"><a href="#">ПОЗВОНИТЬ</a></button>
                     </div>
                     <!-- <img src="./img/slider/slider-two.jpg"> -->
@@ -58,8 +60,9 @@
                 <div class="slider-item slider-item-three">
                     <div class="header-text">
                         <h2 class="header-text-main">BARBAZONI</h2>
-                        <p class="">Надежная защита вашего дома и бизнеса от вредителей!</p>
-                        <p class="w565 mt14">Являемся проверенным партнером, готовы справиться с проблемой любой сложности.</p>
+                        <p class="">Качество. Безопасность. Гарантия.</p>
+                        <p class="w565 mt14">Мы  используем средства, безопасные для здоровья человека и домашних питомцев.
+                            Гарантируем быстрое обслуживание клиента в наилучшем качестве.</p>
                         <button class="call-us"><a href="#">ПОЗВОНИТЬ</a></button>
                     </div>
                     <!-- <img src="./img/slider/slider-three.jpg"> -->
@@ -67,8 +70,8 @@
                 <div class="slider-item slider-item-four">
                      <div class="header-text">
                         <h2 class="header-text-main">BARBAZONI</h2>
-                        <p class="">Надежная защита вашего дома и бизнеса от вредителей!</p>
-                        <p class="w565 mt14">Являемся проверенным партнером, готовы справиться с проблемой любой сложности.</p>
+                        <p class=""></p>
+                        <p class="w565 mt14">У нас лучшие специалисты, которые выполняют любые поставленные  задачи.</p>
                         <button class="call-us"><a href="#">ПОЗВОНИТЬ</a></button>
                     </div>
                     <!-- <img src="./img/slider/slider-four.jpg"> -->
@@ -76,108 +79,68 @@
             </div>
         </div>
     </section>
+    <p><a name="service"></a></p>
     <section class="service">
         <div class="container">
             <h1 class="service-header">BARBAZONI</h1>
             <h2 class="service-description">Наши услуги</h2>
-            <div class="service-block">
-                <div class="service-icon">
-                    <img class="service-zhuk" src="img/zhuk.svg">
-                </div>
-                <div class="service-option">
-                    <h1 class="option-header">ДЕЗИНФЕКЦИЯ</h1>
+            <div class="service-block ">
+                
+                <div class="service-option transition">
+                    <div class="service-icon">
+                        <img class="service-zhuk" src="img/zhuk.svg">
+                    </div>
+                        <h1 class="option-header">ДЕЗИНСЕКЦИЯ</h1>
                     <h2 class="option-header-two">защита от насекомых</h2>
                     <p class="option-text">Наша служба предоставляет защиту от различных
                         видов насекомых таких как: клопы, тараканы, мухи, муравьи, блохи,
                         осы, жуки и тд. После сотрудничества с нами вы навсегда забудете
                         о том что вам докучали какие либо насекомые. Мы всегда рады новым
                         клиентам, свяжитесь с нами прямо сейчас.</p>
-                    <h1 class="option-header-f"><a href="#">ознакомиться</a></h1>
+                        <a class="option-header-f" href="#">ознакомиться</a>
                 </div>
-                <div class="service-icon-two">
-                    <img class="service-zhuk" src="img/zhuk.svg">
+                <div class="service-option transition">
+                    <div class="service-icon">
+                        <img class="service-zhuk" src="img/stop.png">
+                    </div>
+                    <h1 class="option-header">ДЕРАТИЗАЦИЯ</h1>
+                    <h2 class="option-header-two">защита от грызунов</h2>
+                    <p class="option-text">Наша служба предлагает вам свои профессиональные услуги в таком направлении, как борьба с мышами и крысами, гарантируя стабильный и долговременный результат. Даже незначительное промедление повлечет за собой буквальное заполнение грызунами подвалов и чердаков.</p>
+                        <a class="option-header-f" href="#">ознакомиться</a>
                 </div>
-                <div class="service-option-two">
+                <div class="service-option transition">
+                    <div class="service-icon">
+                        <img class="service-zhuk" src="img/drugs.png">
+                    </div>
                     <h1 class="option-header">ДЕЗИНФЕКЦИЯ</h1>
-                    <h2 class="option-header-two">защита от насекомых</h2>
-                    <p class="option-text">Наша служба предоставляет защиту от различных
-                        видов насекомых таких как: клопы, тараканы, мухи, муравьи, блохи,
-                        осы, жуки и тд. После сотрудничества с нами вы навсегда забудете
-                        о том что вам докучали какие либо насекомые. Мы всегда рады новым
-                        клиентам, свяжитесь с нами прямо сейчас.</p>
-                    <h1 class="option-header-f"><a href="#">ознакомиться</a></h1>
-                </div>
-                <div class="service-icon-three">
-                    <img class="service-zhuk" src="img/zhuk.svg">
-                </div>
-                <div class="service-option-two">
-                    <h1 class="option-header">ДЕЗИНФЕКЦИЯ</h1>
-                    <h2 class="option-header-two">защита от насекомых</h2>
-                    <p class="option-text">Наша служба предоставляет защиту от различных
-                        видов насекомых таких как: клопы, тараканы, мухи, муравьи, блохи,
-                        осы, жуки и тд. После сотрудничества с нами вы навсегда забудете
-                        о том что вам докучали какие либо насекомые. Мы всегда рады новым
-                        клиентам, свяжитесь с нами прямо сейчас.</p>
-                    <h1 class="option-header-f"><a href="#">ознакомиться</a></h1>
+                    <h2 class="option-header-two">защита от микроорганизмов</h2>
+                    <p class="option-text">Наша служба предлагает лучшие профессиональные услуги по уничтожению микробов. Мы найдем индивидуальные решения для каждого объекта, гарантируя высокий и стабильный результат. Качественные услуги дезинфекции – залог истиной чистоты вашего дома.</p>
+                        <a class="option-header-f" href="#">ознакомиться</a>
                 </div>
             </div>
-            <button class="service-button"><a href="#">заказать услугу</a></button>
+            <button class="service-button" id="form-show"><a>заказать услугу</a></button>
+           
+           
+           
+            <section class="service-from" id="form-section">
+                <div class="service-wrapper">
+                    <form action="#" name="newform" method="post">
+<div class="form_inputs">
+    <p>Имя<input class="form-input" type="text"></p>
+    
+    <p>Номер телефона<input class="form-input" type="text"></p>
+   
+</div>
+<div class="button_block">
+    <input class="form-input" type="submit" value="ОТПРАВИТЬ">
+</div>
+                    </form>
+                </div>
+            </в>
         </div>
+       
     </section>
-    <section class="complex">
-        <div class="container">
-            <div class="complex-descriptions">
-                <h1 class="complex-header">КВАРТИРЫ, ДОМА, ОРГАНИЗАЦИИ</h1>
-                <h2 class="complex-title">Наша служба выполняет весь комплекс мероприятий по уничтожению тараканов,
-                    клопов на любом объекте, будь квартиры, частные дома, торговые заведения,
-                    складские площади, любое жилое помещение или дворовая территория.</h2>
-            </div>
-            <div class="complex-list">
-
-                <div class="complex-item">
-                    <img class="" src="img/homes/one.png">
-                    <div class="complex-item-title complex-image-badge">Рестораны. Кафе.</div>
-                </div>
-                <div class="complex-item">
-                    <img src="img/homes/one.png">
-                    <div class="complex-item-title complex-image-badge">Рестораны. Кафе.</div>
-                </div>
-                <div class="complex-item">
-                    <img src="img/homes/one.png">
-                    <div class="complex-item-title complex-image-badge">Рестораны. Кафе.</div>
-                </div>
-                <div class="complex-item">
-                    <img src="img/homes/one.png">
-                    <div class="complex-item-title complex-image-badge">Рестораны. Кафе.</div>
-                </div>
-                <div class="complex-item">
-                    <img src="img/homes/one.png">
-                    <div class="complex-item-title complex-image-badge">Рестораны. Кафе.</div>
-                </div>
-                <div class="complex-item">
-                    <img src="img/homes/one.png">
-                    <div class="complex-item-title complex-image-badge">Рестораны. Кафе.</div>
-                </div>
-                <div class="complex-item">
-                    <img src="img/homes/one.png">
-                    <div class="complex-item-title complex-image-badge">Рестораны. Кафе.</div>
-                </div>
-                <div class="complex-item">
-                    <img src="img/homes/one.png">
-                    <div class="complex-item-title complex-image-badge">Рестораны. Кафе.</div>
-                </div>
-                <div class="complex-item">
-                    <img src="img/homes/one.png">
-                    <div class="complex-item-title complex-image-badge">Рестораны. Кафе.</div>
-                </div>
-                <div class="complex-item">
-                    <img src="img/homes/one.png">
-                    <div class="complex-item-title complex-image-badge">Рестораны. Кафе.</div>
-                </div>
-
-            </div>
-        </div>
-    </section>
+    <p><a name="how-we-work"></a></p>
     <section class="how-we-work">
         <div class="container">
             <div class="descriptions">
@@ -186,13 +149,13 @@
             <div class="hww-main">
                 <div class="hww-main-text-info">
                     <div class="hww-diagnostics hww-info">
-                        <img class="hww-logo-img" src="./img/how-we-work/diagnostics-logo.png" alt="diagnostics-logo">
+                        <img class="hww-logo-img dnone481" src="./img/how-we-work/diagnostics-logo.png" alt="diagnostics-logo">
                         <div class="hww-info-text">
                             <h3 class="hww-info-heading">ДИАГНОСТИКА</h3>
                             <span class="highlighted-info">Проведение мониторинга помещений по системе НАССР</span>
                             <ul class="hww-main-info">
 
-                                <li>1. Технологи Euroses исследуют помещения и определяют количество и вид насекомых и
+                                <li>1. Технологи Barbazoni исследуют помещения и определяют количество и вид насекомых и
                                     грызунов</li>
                                 <li>2. Устанавливают причины появления вредителей, пути их попадания на объект и
                                     поражённые территории </li>
@@ -201,30 +164,26 @@
                         </div>
 
                     </div>
-                    <div class="item-number item-number-setting">01</div>
+                    <div class="item-number item-number-setting dnone1200 dnone481">01</div>
                     <div class="hww-strategy hww-info">
-                        <img class="hww-logo-img" src="./img/how-we-work/strategy.png" alt="strategy">
+                        <img class="hww-logo-img dnone481" src="./img/how-we-work/strategy.png" alt="strategy">
                         <div class="hww-info-text">
                             <h3 class="hww-info-heading">СТРАТЕГИЯ</h3>
                             <span class="highlighted-info">Создаем технологию и план работ по выведению вредителя
                                 Согласовываем его с клиентом</span>
                             <ul class="hww-main-info">
 
-                                <li>1. По результатам мониторинга лаборатория Euroses определяет стратегию выведения
+                                <li>1. По результатам мониторинга лаборатория Barbazoni определяет стратегию выведения
                                     вредителя
                                 <li>2. Подбирается или вырабатывается технология под конкретную ситуацию на объекте</li>
                                 <li>3. Проводится инструктаж персонала по подготовке объекта</li>
-                                <li>4. Менеджеры согласовывают с клиентом сроки и периодичность</li>
-
-
-
-                                4. Менеджеры согласовывают с клиентом сроки и периодичность
+                                <li>4. Менеджеры согласовывают с клиентом сроки и периодичность</li>           
                             </ul>
                         </div>
                     </div>
-                    <div class="item-number item-number-setting">02</div>
+                    <div class="item-number item-number-setting dnone1200 dnone481">02</div>
                     <div class="hww-exit hww-info">
-                        <img class="hww-logo-img" src="./img/how-we-work/excretion.png" alt="excretion">
+                        <img class="hww-logo-img dnone481" src="./img/how-we-work/excretion.png" alt="excretion">
                         <div class="hww-info-text">
                             <h3 class="hww-info-heading">ВЫВЕДЕНИЕ</h3>
                             <span class="highlighted-info">Проведение запланированных работ до полного выведения
@@ -240,13 +199,13 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="item-number-setting mb50">03</div>
+                    <div class="item-number-setting ins3set dnone1200 dnone481">03</div>
                 </div>
                 <div class="hww-highlighted">
-                    <h3 class="hww-highlighted-heading">
-                        <p class="hww-highlighted-heading-up">BARBAZONI</p>
-                        <p class="hww-highlighted-heading-down">Качество. Безопасность. Гарантия.</p>
-                    </h3>
+                    <div class="hww-highlighted-heading">
+                        <span class="hww-highlighted-heading-up">BARBAZONI</span>
+                        <span class="hww-highlighted-heading-down">Качество. Безопасность. Гарантия.</span>
+                    </div>
 
                     <p class="hww-highlighted-info">Наша главная задача - это
                         предоставление защиты людям
@@ -271,15 +230,67 @@
                         партнером, готовы справиться с
                         проблемой любой сложности.</p>
                 </div>
-                <div class="hww-video mt1062 ml42">
-                    <iframe class="mt20" width="560" height="315" src="https://www.youtube.com/embed/peJh80R3rBc"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+                <div class="hww-video">
+                    <a class="channel-link" target="_blank" href="https://www.youtube.com/watch?v=grjsUOEljNY"><img class="youtube-icon" src="./img/how-we-work/youtube-icon.png" alt="youtube"></a>
+                    <iframe class="dnone481 mt20" width="560" height="315" src="https://www.youtube.com/embed/grjsUOEljNY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
 
         </div>
+    </section>
+    <p><a name="complex"></a></p>
+    <section class="complex">
+        <div class="container">
+            <div class="complex-descriptions">
+                <h1 class="complex-header">КВАРТИРЫ, ДОМА, ОРГАНИЗАЦИИ</h1>
+                <div class="complex-title">Наша служба выполняет весь комплекс мероприятий по уничтожению тараканов,
+                    клопов на любом объекте, будь квартиры, частные дома, торговые заведения,
+                    складские площади, любое жилое помещение или дворовая территория.</в>
+            </div></div>
+            <div class="complex-list">
+
+                <div class="complex-item">
+                    <img class="w320" src="img/homes/one.png">
+                    <div class="complex-item-title complex-image-badge">Рестораны. Кафе.</div>
+                </div>
+                <div class="complex-item">
+                    <img class="w320" src="img/homes/two.png">
+                    <div class="complex-item-title complex-image-badge">Отели. Гостиницы.</div>
+                </div>
+                <div class="complex-item">
+                    <img class="w320" src="img/homes/three.png">
+                    <div class="complex-item-title complex-image-badge">Супермаркеты. Магазины.</div>
+                </div>
+                <div class="complex-item">
+                    <img class="w320" src="img/homes/chotiri.png">
+                    <div class="complex-item-title complex-image-badge">Квартиры</div>
+                </div>
+                <div class="complex-item">
+                    <img class="w320" src="img/homes/pyat.png">
+                    <div class="complex-item-title complex-image-badge">Частные дома.</div>
+                </div>
+                <div class="complex-item">
+                    <img class="w320" src="img/homes/shest.png">
+                    <div class="complex-item-title complex-image-badge">Дома. Подъезды.</div>
+                </div>
+                <div class="complex-item">
+                    <img class="w320" src="img/homes/sim.png">
+                    <div class="complex-item-title complex-image-badge">Детские сады. Школы.</div>
+                </div>
+                <div class="complex-item">
+                    <img class="w320" src="img/homes/visim.png">
+                    <div class="complex-item-title complex-image-badge">Больницы. Машины скорой помощи.</div>
+                </div>
+                <div class="complex-item">
+                    <img class="w320" src="img/homes/devyat.png">
+                    <div class="complex-item-title complex-image-badge">Общественный транспорт. Автомобили.</div>
+                </div>
+                <div class="complex-item">
+                    <img class="w320" src="img/homes/ten-epta.png">
+                    <div class="complex-item-title complex-image-badge"> Складские и подвальные помещения.</div>
+                </div>
+            </div>
+        
     </section>
     <section class="achievements">
         <div class="container">
@@ -316,6 +327,7 @@
             </div>
         </div>
     </section>
+    <p><a name="contacts"></a></p>
     <section class="contacts">
         <div class="container">
             <div class="descriptions">
@@ -324,21 +336,32 @@
             <div class="contacts-adress"><span>Адрес:</span>
                 <p>Одесса ул. Фонтанская дорога,3</p>
             </div>
-
-            <div class="contacts-map"><iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2748.4099245888688!2d30.709370915821157!3d46.46038777443913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c6323011fd9e9f%3A0x38e7bff8d82d107a!2z0JzQtdC70YzQvdC40YbQutCw0Y8g0YPQuy4sIDMsINCe0LTQtdGB0YHQsCwg0J7QtNC10YHRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNjUwMDA!5e0!3m2!1sru!2sua!4v1638540132499!5m2!1sru!2sua"
-                    width="865" height="304" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
-
+            <nav class="contact-one">
+                <img class="dnone768" src="./img/phone.svg">
+                <a href="tel: +380965083966" class="contact-number1">(096) – 508 – 39 -66</a>
+                <img class="dnone768" src="./img/phone.svg">
+                <a href="tel: +380982107896" class="contact-number1">(098) – 210 – 78 -96</a>
+                <a href="#"><img class="contact-phone" src="./img/telegram.svg"></a>
+               <a href="#"><img class="contact-phone" src="./img/viber.svg"></a>
+            </nav>
+<div class="mini-map">
+    <iframe class="map-size" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2748.9280435864353!2d30.737686015821083!3d46.45012277513549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c633c459abc527%3A0x31ac1242e59555ce!2z0KTQvtC90YLQsNC90YHQutCw0Y8g0LTQvtGALiwgMywg0J7QtNC10YHRgdCwLCDQntC00LXRgdGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA2NTAwMA!5e0!3m2!1sru!2sua!4v1639126980941!5m2!1sru!2sua" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+            <div class="contacts-map dnone768"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2748.9280435864353!2d30.737686015821083!3d46.45012277513549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c633c459abc527%3A0x31ac1242e59555ce!2z0KTQvtC90YLQsNC90YHQutCw0Y8g0LTQvtGALiwgMywg0J7QtNC10YHRgdCwLCDQntC00LXRgdGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA2NTAwMA!5e0!3m2!1sru!2sua!4v1639126980941!5m2!1sru!2sua" width="865" height="304" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </section>
+
     <section class="footer">
+        
         <div class="container">
+            
             <div class="footer-inf">Профессиональная борьба с насекомыми - Борьба с тараканами, грызунами, мухами, осами
                 и клопами © 2021
 
                 Конфиденциальность | защита персональных данных.</div>
         </div>
     </section>
+    <script src="./js/form.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./js/slick.min.js"></script>
     <script src="./js/script.js"></script>
